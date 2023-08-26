@@ -1,0 +1,93 @@
+/* Fonts */
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* All */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Body */
+body{
+    background-color: black;
+}
+/* Container Top */
+.container-top{
+    display: flex;
+    position: relative;
+    margin-top: 53px;
+}
+.container-top .paragraph-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-top .paragraph-top button{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+.container-top .paragraph-top p{
+    color: white;
+    font-family: 'HelveticaNeueCyr';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+.container-top button{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    background: none;
+    border: none;
+}
+/* Container Users */
+.container-users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 67px;
+    margin-bottom: 89px;
+}
+.container-users .user-top,.container-users .user-center,.container-users .user-bottom{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.container-users .user-top img,.container-users .user-center img,.container-users .user-bottom img{
+    border-radius: 7px;
+}
+.container-users .user-top span,.container-users .user-center span,.container-users .user-bottom span{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+/* Admin */
+.admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.admin .admin-btn button{
+    font-family: 'Poppins', sans-serif;
+    font-family: 500;
+    border: none;
+    background: none;
+    color: #F51B0F;
+}

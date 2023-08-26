@@ -1,0 +1,643 @@
+/* Fonts */
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron-SemiBold.woff2') format('woff2'),
+        url('../fonts/Orbitron-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron-Regular.woff2') format('woff2'),
+        url('../fonts/Orbitron-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Orbitron-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* Web */
+body{
+    background: #010206;
+}
+.background{
+    background-image: url('../img/Group\ 34.png');
+    background-size: cover;
+}
+/* container 1 */
+.container-1{
+    padding-top: 7px;
+    width: 100%;
+    margin: 0;
+}
+.container-1 .union-block{
+    display: none;
+}
+.logo{
+    padding-left: 60px;
+}
+.section-1-right{
+    display: flex;
+}
+.section-1-right .section-1-ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.section-1-right .section-1-ul .section-1-a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-style: normal;
+}
+/* container 2 */
+.container-2{
+    width: 100%;
+    padding-top: 60px;
+    margin: 0;
+}
+.container-2 .section-2-left{
+    font-family: arial;
+    color: white;
+    padding-left: 60px;
+}
+.container-2 .section-2-left .section-2-h1{
+    width: 612px;
+    font-size: 45px;
+    font-family: 'Orbitron';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 60px;
+}
+.container-2 .section-2-left .section-2-span{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-style: normal;
+
+}
+.container-2 .section-2-left .section-2-p{
+    width: 521px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+}
+.container-2 .section-2-divhyperlink{
+    display: flex;
+    gap: 10px;
+    padding-left: 60px;
+    margin-top: 40px;
+}
+.container-2 .section-2 .section-2-bottom .section-2-p{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+}
+.container-2 .section-2-divhyperlink .section-2-bottom-1{
+    padding: 8px 24px;
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.container-2 .section-2-divhyperlink .bottom-1{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+}
+.container-2 .section-2-divhyperlink .section-2-bottom-2{
+    padding: 6px 24px;
+    border: 5px solid;
+    border-image: url('../img/Frame\ 14.png') 5 round;
+}
+.container-2 .section-2-divhyperlink .bottom-2{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+}
+.container-2 .section-2-bottom,.container-2 .section-2-bottom-block{
+    display: flex;
+    padding-left: 60px;
+    color: white;
+    gap: 30px;
+    padding-top: 35px;
+    font-family: 'Orbitron';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+}
+.container-2 .section-2-bottom-block{
+    display: none;
+}
+.container-2 .section-2-bottom p{
+    margin: 0;
+}
+.container-2 .section-2-1 .paragraph-movil-block p{
+    margin: 0;
+}
+.container-2 .section-2-1 .paragraph-movil-block{
+    font-family: 'Orbitron';
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size: 24px;
+    display: none;
+}
+.container-2 .section-2-1 .section-2-p{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+}
+.container-2 .section-2-1 .section-2-img-block{
+    display: none;
+}
+/* container 3 */
+.container-3{
+    width: 100%;
+    margin: -120px 0 0 0;
+}
+.container-3 .section-3-left{
+    display: flex;
+    justify-content: center;
+}
+.container-3 .section-3-right{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.container-3 .section-3-right h2{
+    font-family: 'Orbitron';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+.container-3 .section-3-right span{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.container-3 .section-3-right p{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    width: 523px;
+}
+.container-3 .section-3-right .hyperlink-3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.container-3 .section-3-right .section-3-divhyperlink{
+    padding: 10px 18px;
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 60px;
+}
+.container-3 .section-3-right,.container-3 .section-3-left{
+    margin-top: -130px;
+}
+/* container 4 title */
+.container-4-title{
+    width: 100%;
+    padding-top: 130px;
+}
+.container-4-title .title-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container-4-title h2{
+    font-family: 'Orbitron';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+.container-4-title span{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.container-4-title p{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 584px;
+}
+/* container 4 body */
+.container-4-body{
+    width: 100%;
+    padding-top: 80px;
+}
+.container-4-body .section-4-card{
+    background-color: #090823;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 40px 0;
+    border-radius: 0 30px;
+    width: 80%;
+    min-height: 302.57px;
+}
+.container-4-body .section-4-card .img-card{
+    text-align: center;
+}
+.container-4-body .section-4-card .card-p{
+    font-family: 'Orbitron';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    
+}
+.container-4-body .section-4-card .card-p-1{
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11.5px;
+    color: white;
+    width: 272px;
+}
+.container-4-body .section-4-card .section-4-card-hyperlink{
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.container-4-body .section-4-card .section-card-divhyperlink{
+    padding: 7px 25px;
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    border-radius: 5px;
+    width: max-content;
+}
+.container-4-body .section-4-card .section-card-a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.container-4-body .section-4-card .section-card-divhyperlink-1{
+    padding: 2px 8px;
+    border: 5px solid;
+    border-image: url('../img/Frame\ 14.png') 5 round;
+}
+.container-4-body .section-4-card .section-card-a-1{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.container-4-body .section-4-card .section-4-card-p{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.container-4-body .card-4-1{
+    display: flex;
+    justify-content: flex-end;
+}
+.container-4-body .card-4-2{
+    display: flex;
+    justify-content: center;
+}
+.container-4-body .card-4-3{
+    display: flex;
+    justify-content: flex-start;
+}
+.margin-top{
+    margin-top: -40px;
+}
+/* container 5 */
+.container-5{
+    width: 100%;
+    margin-left: 0;
+}
+.container-5 .section-5-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+.container-5 .section-5-title h2{
+    font-family: 'Orbitron';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+.container-5 .section-5-title span{
+    color: #64CEF5;
+}
+.container-5 .section-5-title p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    width: 561.52px;
+}
+.container-5 .section-5-video{
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 50px;
+}
+/* container 6 */
+.container-6{
+    width: 100%;
+    margin: 120px 0 0 0;
+    background-color: #090823;
+}
+.container-6 .section-6-left{
+    padding: 100px 0 120px 60px;
+}
+.container-6 .section-6-left h2{
+    font-family: 'Orbitron';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.container-6 .section-6-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 523px;
+}
+.container-6 .section-6-center{
+    padding: 100px 0 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container-6 .section-6-center p{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.container-6 .section-6-center .section-6-ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container-6 .section-6-center .section-6-ul .section-6-a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.container-6 .section-6-right{
+    padding: 100px 0 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.container-6 .section-6-right p{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.container-6 .section-6-right .section-6-img{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.container-6 .section-6-right .section-6-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    width: 263px;
+    margin-top: 20px;
+}
+/* movil */
+@media only screen and (max-width: 768px){
+    .container-1{
+        display: flex;
+        padding-top: 60px;
+        margin: 0;
+    }
+    .container-1 .logo{
+        padding-left: 10px;
+    }
+    .container-1 .logo .logo-movile{
+        width: 90px;
+    }
+    .container-1 .section-1-right{
+        display: none;
+    }
+    .container-1 .union-block{
+        display: block;
+        text-align: right;
+    }
+    .container-2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .container-2 .section-2-bottom{
+        display: none;
+    }
+    .container-2 .section-2{
+        width: 100%;
+        padding: 0;
+        margin-top: -180px;
+    }
+    .container-2 .section-2-1{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        padding-top: 40px;
+    }
+    .container-2 .section-2-1 .section-2-img-block{
+        display: block;
+    }
+    .container-2 .section-2-1 .section-2-img-block-1{
+        display: none;
+    }
+    .container-2 .section-2-1 .paragraph-movil-block{
+        display: block;
+        position: absolute;
+    }
+    .container-2 .section-2-1 .absolute-1{
+        top: 85px;
+        left: 25px;
+    }
+    .container-2 .section-2-1 .absolute-2{
+        top: 0;
+        left: 110px;
+    }
+    .container-2 .section-2-1 .absolute-3{
+        top: 40px;
+        right: 20px;
+    }
+    .container-2 .section-2-left{
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .container-2 .section-2-1 .paragraph-movil-block{
+        font-size: 16px;
+    }
+    .container-2 .section-2-left .section-2-h1{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .container-2 .section-2-left .section-2-p{
+        width: 100%;
+    }
+    .container-2 .section-2-divhyperlink{
+        justify-content: center;
+        padding-left: 0;
+    }
+    .container-3{
+        margin-top: 0;
+    }
+    .container-3 .section-3-right, .container-3 .section-3-left{
+        margin-top: 0;
+    }
+    .container-3 .section-3-left{
+        padding-top: 80px;
+    }
+    .container-3 .section-3-right h2{
+        font-size: 28px;
+    }
+    .container-3 .section-3-right p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .container-3 .section-3-right{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .container-3 .section-3-right .section-3-divhyperlink{
+        margin-top: 40px;
+    }
+    .container-4-title{
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+    .container-4-title .title-4{
+        text-align: left;
+    }
+    .container-4-title h2{
+        font-size: 27px;
+    }
+    .container-4-title p{
+        width: 100%;
+        font-size: 13px;
+    }
+    .container-4-body{
+        margin: 0;
+        padding-top: 30px;
+    }
+    .container-4-body .card-4-1,.container-4-body .card-4-2,.container-4-body .card-4-3{
+        justify-content: center;
+        padding: 0;
+    }
+    .container-4-body .section-4-card{
+        width: 90%;
+    }
+    .container-4-body .card-4-2, .container-4-body .card-4-3{
+        margin-top: 30px;
+    }
+    .container-4-body .section-4-card .card-p{
+        font-size: 16px;
+    }
+    .container-4-body .section-4-card .card-p-1{
+        width: 318px;
+        font-size: 12px;
+    }
+    .margin-top{
+        display: none;
+    }
+    .container-5{
+        margin-left: 0;
+    }
+    .container-5 .section-5-title{
+        padding-top: 40px;
+    }
+    .container-5 .section-5-title h2{
+        font-size: 27px;
+        width: 100%;
+        padding-left: 8px;
+    }
+    .container-5 .section-5-title p{
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        padding-left: 8px;
+    }
+    .container-6 .section-6-left{
+        padding: 40px 0 0 20px;
+    }
+    .container-6 .section-6-left h2{
+        font-size: 30px;
+    }
+    .container-6 .section-6-left p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .container-6 .section-6-center{
+        padding: 40px 0 0 0;
+        justify-content: space-around;
+    }
+    .container-6 .section-6-right{
+        justify-content: flex-start;
+        padding: 20px 0 20px 20px;
+    }
+    .container-6 .section-6-right p{
+        display: none;
+    }
+    .container-6 .section-6-right .section-6-p{
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,146 @@
+/* Fonts */
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('../fonts/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0F0F0F;
+}
+
+/* container 1 */
+.container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* container 2 */
+.container-2{
+    margin-left: 28px;
+}
+.container-2 .title h2{
+    font-family: 'Dreadnoughtus', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}.container-2 .used{
+    display: flex;
+    gap: 5px;
+    margin-top: 6px;
+}
+.container-2 .used span{
+    font-family: 'Dreadnoughtus', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+/* container 3 */
+.container-3{
+    background-image: url('../img/Group37.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 107.63vh;
+    margin-top: -96px;
+}
+
+/* container 4 */
+.container-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 38px;
+    gap: 45px;
+}
+.container-4 p{
+    font-family: 'Dreadnoughtus', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.container-4 span{
+    font-family: 'Circular Std';
+}
+
+/* container 5 */
+.container-5{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 37px;
+}
+.container-5 .blue{
+    display: flex;
+    align-items: center;
+    width: 66px;
+    height: 69px;
+    background-color: #A8C5FF;
+    border-radius: 6px;
+    position: relative;
+}
+.container-5 .blue .img{
+    position: absolute;
+    left: -30px;
+}
+.container-5 .pink{
+    display: flex;
+    align-items: center;
+    width: 66px;
+    height: 69px;
+    background-color: #F8A6CF;
+    border-radius: 6px;
+    position: relative;
+}
+.container-5 .pink .img{
+    position: absolute;
+    left: -22px;
+}
+.container-5 .blue-1{
+    display: flex;
+    align-items: center;
+    width: 66px;
+    height: 69px;
+    background-color: #ADE9F9;
+    border-radius: 6px;
+    position: relative;
+}
+.container-5 .blue-1 .img{
+    position: absolute;
+    left: -10px;
+}
+.container-5 .yellow{
+    display: flex;
+    align-items: center;
+    width: 66px;
+    height: 69px;
+    background-color: #FBDBB8;
+    border-radius: 6px;
+    position: relative;
+}
+.container-5 .yellow .img{
+    position: absolute;
+    left: 5px;
+}
+
+/* container 6 */
+.container-6{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-image: url('../img/');
+}
+.container-6 .rectangle{
+    background: linear-gradient(180deg, #49E6CA 0%, #2B9B8E 100%);
+    width: 352px;
+    height: 26vh;
+    border-radius: 18px 18px 0 0;
+}

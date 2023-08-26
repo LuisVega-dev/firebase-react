@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card1">
+        <div class="card-1">
+          <h2 class="titulo"></h2>
+          <div class="img"></div>
+          <p class="description"></p>
+          <button id="btn">El Exorcista Del Papa</button>
+        </div>
+      </div>
+      <div class="card2">
+        <div class="card-2">
+          <h2 class="titulo-1"></h2>
+          <div class="img-1"></div>
+          <p class="description-1"></p>
+          <button id="btn-1">Winnie the Pooh: Sangre y miel</button>
+        </div>
+      </div>
+      <div class="card3">
+        <div class="card-3">
+          <h2 class="titulo-2"></h2>
+          <div class="img-2"></div>
+          <p class="description-2"></p>
+          <button id="btn-2">Evil Dead Rise</button>
+        </div>
+      </div>
+      <div class="card4">
+        <div class="card-4">
+          <h2 class="titulo-3"></h2>
+          <div class="img-3"></div>
+          <p class="description-3"></p>
+          <button id="btn-3">Avengers: Endgame</button>
+        </div>
+      </div>
+      <div class="card5">
+        <div class="card-5">
+          <h2 class="titulo-4"></h2>
+          <div class="img-4"></div>
+          <p class="description-4"></p>
+          <button id="btn-4">The Flash</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      var title = [
+        "El Exorcista Del Papa",
+        "Winnie the Pooh: Sangre y miel",
+        "Evil Dead Rise",
+        "Avengers: Endgame",
+        "The Flash",
+      ];
+      var description = [
+        "The Pope's Exorcist es una película de terror sobrenatural estadounidense de 2023 dirigida por Julius Avery y protagonizada por Russell Crowe, Daniel Zovatto, Alex Essoe y Franco Nero. La película está basada en las memorias del padre Gabriele Amorth An Exorcist Tells His Story y An Exorcist: More Stories.",
+        "Winnie the Pooh y Piglet se han vuelto salvajes y quieren sangre humana. Los antes entrañables amigos aterrorizan a Christopher Robin y un grupo de jóvenes en una casa aislada.",
+        "En un edificio de apartamentos de Los Ángeles, dos hermanas luchan contra los demonios sedientos de sangre que han salido de un libro antiguo.",
+        "Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.",
+        "The Flash es una próxima película estadounidense de superhéroes basada en el personaje homónimo de DC Comics. Producida por DC Studios, The Disco Factory y Double Dream y distribuida por Warner Bros. Pictures, pretende ser la decimotercera película del Universo extendido de DC",
+      ];
+      var img = [
+        "<img src='./img/EEL-EXORCISTA-DELPAPA1.jpg' width='200px'>",
+        "<img src='./img/Winnie_the_Pooh_Miel_y_sangre-736270278-large.jpg' width='200px'>",
+        "<img src='./img/evildeadrise.jpeg' width='200px'>",
+        "<img src='./img/endgame.jpeg' width='200px'>",
+        "<img src='./img/flash.jpeg' width='200px'>",
+      ];
+      $("#btn").click(function () {
+        $(".titulo").html(title[0]);
+        $(".img").html(img[0]);
+        $(".description").html(description[0]);
+        $(".titulo").slideToggle("slow");
+        $(".description").slideToggle("slow");
+        $(".img").slideToggle("slow");
+      });
+      $("#btn-1").click(function () {
+        $(".titulo-1").html(title[1]);
+        $(".img-1").html(img[1]);
+        $(".description-1").html(description[1]);
+        $(".titulo-1").slideToggle("slow");
+        $(".img-1").slideToggle("slow");
+        $(".description-1").slideToggle("slow");
+      });
+      $("#btn-2").click(function () {
+        $(".titulo-2").html(title[2]);
+        $(".img-2").html(img[2]);
+        $(".description-2").html(description[2]);
+        $(".img-2").slideToggle("slow");
+        $(".titulo-2").slideToggle("slow");
+        $(".description-2").slideToggle("slow");
+      });
+      $("#btn-3").click(function () {
+        $(".titulo-3").html(title[3]);
+        $(".img-3").html(img[3]);
+        $(".description-3").html(description[3]);
+        $(".img-3").slideToggle("slow");
+        $(".titulo-3").slideToggle("slow");
+        $(".description-3").slideToggle("slow");
+      });
+      $("#btn-4").click(function () {
+        $(".titulo-4").html(title[4]);
+        $(".img-4").html(img[4]);
+        $(".description-4").html(description[4]);
+        $(".img-4").slideToggle("slow");
+        $(".titulo-4").slideToggle("slow");
+        $(".description-4").slideToggle("slow");
+      });
+    </script>
+  </body>
+</html>

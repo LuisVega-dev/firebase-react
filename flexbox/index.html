@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <title>Flexbox</title>
+    </head>
+    
+    <style>
+        .flexible{
+            display: flex;
+        }
+
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .evenly{
+            justify-content: space-evenly;
+        }
+
+        .between{
+            justify-content: space-between;
+        }
+    </style>
+
+    <body>
+        <div class="flexible evenly">
+            <div class="div1"></div>
+            <div class="div1"></div>
+        </div>
+        <div class="flexible between">
+            <div class="div1"></div>
+            <div class="div1"></div>
+            <div class="div1"></div>
+        </div>
+    </body>
+
+</html>

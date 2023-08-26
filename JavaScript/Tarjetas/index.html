@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="section-card">
+            <div class="card-div-1">
+                <div class="card-1">
+                    <div class="div-img">
+                        <img src="./img/D_Q_NP_799909-MLA50260380018_062022-AB.webp" class="img-1">
+                        <img src="./img/bald-head-royalty-free-image-1599469569.jpg" width="224px" class="img">
+                    </div>
+                    <div class="body-card">
+                        <span>$20.000</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-1">Ocultar</button>
+            <button class="btn-2">Mostar</button>
+        </div>
+    </div>
+    <script>
+        $(".btn-1").click(function(){
+            $(".img").fadeIn();
+            $(".img-1").fadeOut();
+        });
+        $(".btn-2").click(function(){
+            $(".img").fadeOut();
+            $(".img-1").fadeIn();
+        });
+    </script>
+</body>
+</html>

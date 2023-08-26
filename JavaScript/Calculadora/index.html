@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <style>
+        .container,.container-1{
+            display: flex;
+        }
+        .result{
+            margin: 0 10px 0 10px;
+        }
+        .button{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            gap: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-1">
+        <div class="container">
+            <div>
+                <input type="number" name="number" class="number-1">
+                <input type="number" name="number" class="number-2">
+            </div>
+        </div>
+        <div class="button">
+            <button id="suma">Suma</button>
+            <button id="resta">Resta</button>
+            <button id="multiplicacion">multiplicacion</button>
+            <button id="division">division</button>
+        </div>
+        <div class="result"></div>
+    </div>
+    <script>
+        $("#suma").click(function(){
+            let numero0 = $(".number-1").val();
+            let numero1 = parseInt(numero0)
+            var numero2 = $(".number-2").val();
+            var numero3 = parseInt(numero2)
+            const result = numero1+numero3
+            $(".result").html(result)
+        });
+        $("#resta").click(function(){
+            let numero0 = $(".number-1").val();
+            let numero1 = parseInt(numero0)
+            var numero2 = $(".number-2").val();
+            var numero3 = parseInt(numero2)
+            const result = numero1-numero3
+            $(".result").html(result)
+        });
+        $("#multiplicacion").click(function(){
+            let numero0 = $(".number-1").val();
+            let numero1 = parseInt(numero0)
+            var numero2 = $(".number-2").val();
+            var numero3 = parseInt(numero2)
+            const result = numero1*numero3
+            $(".result").html(result)
+        });
+        $("#division").click(function(){
+            let numero0 = $(".number-1").val();
+            let numero1 = parseInt(numero0)
+            var numero2 = $(".number-2").val();
+            var numero3 = parseInt(numero2)
+            const result = numero1/numero3
+            $(".result").html(result)
+        });
+    </script>
+</body>
+</html>

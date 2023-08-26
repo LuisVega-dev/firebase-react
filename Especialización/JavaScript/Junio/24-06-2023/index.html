@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="numero">5</p>
+    <p class="numero1">7</p>
+    <p id="number1">9</p>
+    <p id="number2">8</p>
+    <div class="container"></div>
+
+    <script>
+
+        // querySelector
+        let num1 = document.querySelector('.numero').innerHTML;
+        let nume1 = parseInt(num1);
+        let num2 = document.querySelector('.numero1').innerHTML;
+        let nume2 = parseInt(num2);
+        let suma = nume1+nume2;
+        console.log(suma)
+        
+        // getElementsByClassName
+        let nu1 = document.getElementsByClassName('numero');
+        let vacio = "";
+        for (let i = 0; i < nu1.length; i++) {
+            vacio += nu1[i].innerHTML;
+        };
+        let nu2 = parseInt(vacio);
+        let nu3 = document.getElementsByClassName('numero1');
+        let vacio1 = "";
+        for (let i = 0; i < nu3.length; i++) {
+            vacio1 += nu3[i].innerHTML;
+        };
+        let nu4 = parseInt(vacio1);
+        let suma1 = nu2+nu4;
+        console.log(suma1);
+        
+        // getElementById
+        let num3  = document.getElementById('number1').innerHTML;
+        let nume3 = parseInt(num3);
+        let num4 = document.getElementById('number2').innerHTML;
+        let nume4 = parseInt(num4);
+        let suma2 = nume3+nume4;
+        console.log(suma2);
+        
+        // querySelectorAll
+        let nu5 = document.querySelectorAll('#number1');
+        let vacio2 = ""
+        for (let i = 0; i < nu5.length; i++) {
+            vacio2 += nu5[i].innerHTML;
+        };
+        let nu6 = parseInt(vacio2);
+        let nu7 = document.querySelectorAll('#number2');
+        let vacio3 = ""
+        for (let i = 0; i < nu7.length; i++) {
+            vacio3 += nu7[i].innerHTML;
+        };
+        let nu8 = parseInt(vacio3);
+        let suma3 = nu6+nu8;
+        console.log(suma3);
+
+        document.querySelector('.container').innerHTML=suma3;
+    </script>
+</body>
+</html>

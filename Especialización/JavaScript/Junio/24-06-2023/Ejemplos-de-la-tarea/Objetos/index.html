@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objetos</title>
+</head>
+<body>
+    <script>
+        const luis = {
+            nombre: "Luis",
+            apellido: "Vega",
+            edad: 18,
+            pasatiempos:["programar","jugar","salir a comer helado"],
+            soltero: "true",
+            contacto: {
+                Emai: "luismanuelvegaramirez3@gmail.com",
+                Telefono: 3016213501,
+                Instagram: "luis_vega0501",
+            },
+            imprimir: function(){
+                console.log("Hola")
+            },
+            DiMiNombre:function(){
+                console.log('Hola me llamo ${this.nombre}');
+            },
+        }
+        console.log(luis);
+        console.log(luis.aprellido);
+        console.log(luis.contacto.Emai);
+        console.log(luis.pasatiempos[0]);
+        luis.imprimir();
+        luis.DiMiNombre()
+
+        console.log(Object.keys(luis))
+        console.log(Object.values(luis))
+        console.log(luis.hasOwnProperty("apellido"))
+    </script>
+</body>
+</html>

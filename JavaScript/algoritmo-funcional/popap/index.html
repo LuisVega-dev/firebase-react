@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<style>
+		.start{
+			background-color: green;
+			border: 1px solid gray;
+			color: white;
+			border-radius: 10px;
+			padding: 5px 20px;
+		}
+		.container{
+			display: flex;
+			gap:15px;
+			justify-content: space-around;
+			align-content: center;
+		}
+		.container img{
+			width: 100%;
+		}
+		.card{
+			background-color: white;
+			border: 1px solid black;
+			border-radius: 10px;
+			padding: 20px;
+			text-align: center;
+			max-width: 300px;	
+		}
+		.card:hover {
+			box-shadow: 10px 10px 0 2px gray;
+			transform: rotate(5deg);
+		}
+		.pokemon_bottom{
+			display: flex;
+			gap:15px;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 30px
+		}
+		input{
+			display: none;
+		}
+		.card h2 ,.card p{
+			display: none;
+		}
+		.popup{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: #3336;
+			display: none;			
+
+		}
+		.popup_container{
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+		}
+		.popup_content{
+			width: 400px;
+			height: 400px;
+			background-color: white;
+		}
+
+	</style>
+</head>
+<body>
+
+<div class="container">
+</div>
+<div class="popup">
+	<div  class="popup_container">
+		<div class="popup_header"><button onclick="cerrar()">X</button></div>
+		<div class="popup_content"></div>
+	</div>
+</div>
+<script>
+	let titulo = ["Pokemon","Avatar","Mario","Avatar","Mario"];
+	let imagenes =["pk1.jpg","pk2.jpg","pk3.jpg","pk2.jpg","pk3.jpg"];
+	let parrafo =["Pokemones","Avatars","Mario bros","Avatars","Mario bros"];
+   	let proceso ="";
+   	for (let i = 0; i < titulo.length; i++) {
+   		proceso +="<div class='card'>"+"<h2>"+titulo[i]+"</h2>"+"<img src='"+imagenes[i]+"'>"+"<p>"+parrafo[i]+"</p>"+"</div>";   }
+	$(".container").html(proceso);
+
+	$('.card').click(function () {
+		$(".popup").show();
+		let contenido = $(this).html();
+		$(".popup_content").html(contenido);
+	})
+
+	function cerrar() {
+		$('.popup').hide();
+	};
+
+
+</script>
+</body>
+</html>

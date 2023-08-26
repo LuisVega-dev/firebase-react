@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Body */
+body{
+    background-color: black;
+    background-image: url('../img/netflix.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}

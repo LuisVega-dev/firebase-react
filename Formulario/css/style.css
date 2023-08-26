@@ -1,0 +1,261 @@
+/* fonts */
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+        url('../fonts/Nunito-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Medium.woff2') format('woff2'),
+        url('../fonts/Nunito-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Regular.woff2') format('woff2'),
+        url('../fonts/Nunito-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.section-left{
+    display: flex;
+    flex-direction: column;
+}
+.background{
+    background-image: url('../img/Vector.png');
+    width: 565px;
+    height: 446px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background .bp{
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    color: #0A3749;
+    position: absolute;
+    width: 397px;
+    bottom: 10px;
+    right: 45px;
+}
+.div-1 .paragraph{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+.div-2{
+    font-family: 'Nunito';
+    font-weight: Normal;
+    font-style: normal;
+    font-size: 24px;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.div-2 a{
+    color: #0047FF;
+}
+.div-3{
+    padding-left: 80px;
+    padding-top: 80px;
+    display: flex;
+    gap: 15px;
+}
+.section-right{
+    display: flex;
+    width: 54%;
+    flex-direction: column;
+    align-items: center;
+}
+.section-right .div-4{
+    margin-top: 80px;
+    text-align: center}
+.section-right .div-4 a{
+    font-family: 'Inter';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    border: 2px solid #868091;
+    border-radius: 7px;
+    padding: 15px 90px 15px 40px;
+}
+.section-right .div-4 img{
+    margin-bottom: -15px;
+    margin-right: 30px;
+}
+.section-right .div-5{
+    margin-top: 100px;
+    text-align: center;
+}
+.section-right .div-5 .div-5-2 span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+}
+.section-right .div-5 .div-5-2{
+    margin-top: -20px;
+}
+.section-right .section-imputs{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.section-right .section-imputs .section-name{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+    justify-content: center;
+}
+.section-right .section-imputs .fname input{
+    width: 209.5px;
+    height: 50px;
+    border: 0.7px solid #000000;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+.section-right .section-imputs .fname{
+    position: relative;
+}
+.section-right .section-imputs .fname label{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    color: #0A3749;
+    position: absolute;
+    background: white;
+    padding: 0 5px 0 5px;
+    margin: -10px 0 0 10px;
+}
+.section-right .section-imputs .lname input{
+    width: 209.5px;
+    height: 50px;
+    border: 0.7px solid #000000;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+.section-right .section-imputs .lname{
+    position: relative;
+}
+.section-right .section-imputs .lname label{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    color: #0A3749;
+    position: absolute;
+    background: white;
+    padding: 0 5px 0 5px;
+    margin: -10px 0 0 10px;
+}
+.section-right .email{
+    position: relative;
+}
+.section-right .email label{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    color: #0A3749;
+    position: absolute;
+    background: white;
+    padding: 0 5px 0 5px;
+    margin: -10px 0 0 10px;
+}
+.section-right .email input{
+    width: 473.35px;
+    height: 50px;
+    border: 0.7px solid #000000;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+.section-right .password {
+    position: relative;
+}
+.section-right .password label{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    color: #0A3749;
+    position: absolute;
+    background: white;
+    padding: 0 5px 0 5px;
+    margin: -10px 0 0 10px;
+}
+.section-right .password input{
+    width: 473.35px;
+    height: 50px;
+    border: 0.7px solid #000000;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+.section-right .checkbox{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 40px;
+}
+.section-right .checkbox span{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+}
+
+.section-right .checkbox a{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-style: normal;
+    color: #0047FF;
+    font-size: 19px;
+}
+.section-right .checkbox #checkbox{
+    border: 0.5px solid #000000;
+    border-radius: 3px;
+    width: 19px;
+    height: 19px;
+}
+.section-right .checkbox .div-check{
+    margin-bottom: -3px;
+}
+.section-right .div-6 a{
+    font-family: 'Inter';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 27px;
+    text-decoration: none;
+    color: #0A3749;
+    background-color: #FFE061;
+    padding: 10px 163px;
+    border-radius: 7px;
+}
+.section-right .div-6{
+    margin: 70px 0 30px 0;
+}

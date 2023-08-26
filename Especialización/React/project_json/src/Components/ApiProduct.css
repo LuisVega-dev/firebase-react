@@ -1,0 +1,6 @@
+.Pokemones{
+    background-color: var(--card-background);
+    width: 200px;
+    padding: 10px;
+    border-radius: 7px;
+}

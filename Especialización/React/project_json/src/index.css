@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main: #D93636;
+  --secondary: #D93240;
+  --white: #FFF;
+  --card-background: #F2F2F0;
+  --text: rgb(97, 97, 97);
+  --paragraph: rgb(49, 49, 49);
+  --container: #BFBFBF;
+}
+
+body{
+  font-family: Arial;
+  background: rgb(139,137,137);
+  background: linear-gradient(90deg, rgba(139,137,137,1) 39%, rgba(233,233,233,1) 70%);
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.container .card1 .card-1,.container .card2 .card-2,.container .card3 .card-3,.container .card4 .card-4,.container .card5 .card-5{
+    background-color: white;
+    text-align: center;
+    min-height: 65px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-family: arial;
+}
+.container .card1 .card-1:hover,.container .card2 .card-2:hover,.container .card3 .card-3:hover,.container .card4 .card-4:hover,.container .card5 .card-5:hover{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+#btn,#btn-1,#btn-2,#btn-3,#btn-4{
+    margin-top: 20px;
+}
+.container .description,.container .description-2,.container .description-3,.container .description-4{
+    width: 300px;
+}
+.container .titulo,.container .description,.container .img,.container .titulo-1,.container .description-1,.container .img-1,.container .titulo-2,.container .description-2,.container .img-2,.container .titulo-3,.container .description-3,.container .img-3,.container .titulo-4,.container .description-4,.container .img-4{
+    display: none;
+}
+.container .description-1{
+    width: 359px;
+}

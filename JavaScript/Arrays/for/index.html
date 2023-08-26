@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    </style>
+</head>
+<body>
+    <!-- <div class="container"></div>
+    <script>
+        const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+        // (i++) = (i=i+1) = (i +=1)
+        let proceso = "";
+        for (let i = 0; i < cars.length; i++) {
+        proceso += "<h2 class='red'>" + cars[i]+ "</h2>" + "<br>";
+        }
+        $(".container").html(proceso);
+    </script> -->
+
+    <div class="container"></div>
+    <script>
+        const title = ["El Exorcista Del Papa","Winnie the Pooh: Sangre y miel","Evil Dead Rise","Avengers: Endgame","The Flash"]
+        const img = ["<img src='./img/EEL-EXORCISTA-DELPAPA1.jpg' width='200px'>","<img src='./img/Winnie_the_Pooh_Miel_y_sangre-736270278-large.jpg' width='200px'>","<img src='./img/evildeadrise.jpeg' width='200px'>","<img src='./img/endgame.jpeg' width='200px'>","<img src='./img/flash.jpeg' width='200px'>"]
+        const description = ["The Pope's Exorcist es una película de terror sobrenatural estadounidense de 2023 dirigida por Julius Avery y protagonizada por Russell Crowe, Daniel Zovatto, Alex Essoe y Franco Nero. La película está basada en las memorias del padre Gabriele Amorth An Exorcist Tells His Story y An Exorcist: More Stories.","Winnie the Pooh y Piglet se han vuelto salvajes y quieren sangre humana. Los antes entrañables amigos aterrorizan a Christopher Robin y un grupo de jóvenes en una casa aislada.","En un edificio de apartamentos de Los Ángeles, dos hermanas luchan contra los demonios sedientos de sangre que han salido de un libro antiguo.","Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.","The Flash es una próxima película estadounidense de superhéroes basada en el personaje homónimo de DC Comics. Producida por DC Studios, The Disco Factory y Double Dream y distribuida por Warner Bros. Pictures, pretende ser la decimotercera película del Universo extendido de DC"]
+
+        let card = "";
+        for (let i = 0; i < title.length; i++) {
+            card += "<h2 class='title'>" + title[i] + "</h2>";
+            card += img[i];
+            card += "<p>" + description[i] + "</p>";
+        }
+        $(".container").html(card)
+    </script>
+</body>
+</html>

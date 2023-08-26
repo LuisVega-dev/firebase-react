@@ -1,0 +1,801 @@
+<html>
+
+	<head>
+		<title>Veterinaria</title>
+
+		<style>
+			.body{
+				margin: auto;
+			}
+	
+			.flex{
+				display: flex;
+			}
+		
+			#parte1{
+				background-color: #daac00;
+				justify-content: center;
+				gap: 70px;
+			}
+	
+			.logo{
+				margin-top: 10px;
+			}
+	
+			.parte1lista{
+				list-style: none;
+				font-family: arial;
+				margin-left: -90px;
+			}
+	
+			.parte1li{
+				margin-left: 50px;
+			}
+	
+			.parte1a{
+				text-decoration: none;
+				color: white;
+				font-size: 22px;
+			}
+	
+			.parte1input{
+				background-color: #fcc302;
+				color: white;
+				margin-top: 20px;
+				border: none;
+				height: 20.5px;
+			}
+	
+			.buscar{
+				margin: 19.5px 0 0 -2px;
+			}
+	
+			#parte2{
+				background-color: #fcc302;
+				font-family: arial;
+				color: white;
+				justify-content: center;
+				gap: 180px;
+				margin-top: -2px;
+			}
+	
+			.parte2{
+				margin-top: 60px;
+			}
+	
+			.parte2h{
+				font-size: 40px;
+				width: 365px;
+				line-height: 50px;
+			}
+	
+			.parte2p{
+				width: 365px;
+				font-size: 18.6px;
+				margin-top: -10px;
+			}
+	
+			.parte2botones{
+				margin-top: 50px;
+			}
+	
+			.parte2a1{
+				text-decoration: none;
+				color: white;
+				background-color: #00bec9;
+				font-weight: bold;
+				padding: 15px;
+				border-radius: 5px;
+			}
+	
+			.parte2a2{
+				text-decoration: none;
+				color: white;
+				background-color: #fcc302;
+				border: solid 3px white;
+				padding: 12px;
+				border-radius: 5px 5px 5px 5px;
+				margin-left: 25px;
+				font-weight: bold;
+			}
+	
+	
+			.parte2img{
+				margin-top: 40px;
+			}
+	
+			#parte3{
+				font-family: arial;
+				margin-top: 40px;
+				justify-content: center;
+				gap: 130px;
+			}
+	
+			.parte3div{
+				margin-top: 80px;
+			}
+	
+			.parte3{
+				margin-top: 40px;
+			}
+	
+			.parte3h{
+				color: #313243;
+				font-size: 33px;
+				width: 334px;
+			}
+	
+			.parte3p{
+				color: #313243;
+				width: 334px;
+				font-size: 20px;
+			}
+	
+			.parte3boton{
+				margin-top: 40px;
+			}
+	
+			.parte3a{
+				text-decoration: none;
+				color: white;
+				background-color: #fcc302;
+				font-weight: bold;
+				padding: 15px;
+				border-radius: 5px;
+			}
+	
+			.parte3cuadro{
+				margin-top: 230px;
+			}
+	
+			#parte4{
+				justify-content: center;
+				color: white;
+				font-family: arial;
+				background-color: #fcc302;
+				margin-top: 80px;
+			}
+	
+			.parte4{
+				margin-top: 40px;
+			}
+	
+			.parte4h{
+				font-size: 50px;
+			}
+	
+			.parte4p{
+				font-size: 23px;
+				margin-top: -15px;
+				width: 458px;
+			}
+	
+			#parte4-1{
+				background-color: #fcc302;
+				justify-content: center;
+				gap: 47px;
+				margin-top: -2px;
+			}
+			
+			.parte4-1img{
+				margin-top: 40px;
+			}
+	
+			.parte4h-1{
+				font-family: arial;
+				color: white;
+				font-size: 29.7px;
+				width: 240px;
+			}
+	
+			.parte4p-1{
+				font-family: arial;
+				color: white;
+				width: 240px;
+				font-size: 19.9px;
+				margin-top: -10px;
+				margin-bottom: 70px;
+			}
+	
+			#parte5{
+				margin-top: 40px;
+				justify-content: center;
+				gap: 100px;
+			}
+	
+			.parte5{
+				margin-top: 40px;
+			}
+	
+			.parte5cuadro{
+				margin-top: 230px;
+			}
+	
+			.parte5h{
+				font-family: arial;
+				font-size: 36px;
+				color: #313243;
+				width: 365px;
+			}
+	
+			.parte5p{
+				font-size: 21px;
+				font-family: arial;
+				color: #313243;
+				width: 365px;
+				margin-top: 40px;
+			}
+	
+			.parte5-1{
+				text-align: right;
+				margin-top: 60px;
+			}
+	
+			.parte5a{
+				text-decoration: none;
+				color: white;
+				font-family: arial;
+				font-weight: bold;
+				padding: 15px;
+				border-radius: 5px;
+				background-color: #fcc302;
+			}
+	
+			.parte5boton{
+				margin-top: 60px;
+			}
+	
+			#parte6{
+				justify-content: center;
+				color: white;
+				font-family: arial;
+				background-color: #fcc302;
+				margin-top: 70px;
+			}
+	
+			.parte6{
+				margin-top: 40px;
+			}
+	
+			.parte6h{
+				font-size: 50px;
+			}
+	
+			.parte6p{
+				font-size: 23px;
+				margin-top: -15px;
+				width: 458px;
+			}
+	
+			#parte6-1{
+				background-color: #fcc302;
+				justify-content: center;
+				gap: 47px;
+				margin-top: -2px;
+			}
+	
+			.parte6-1{
+				margin: 40px 0 70px 0;
+			}
+	
+			.ventas{
+				color: white;
+				font-family: arial;
+				text-align: center;
+				font-size: 28px;
+				text-decoration: line-through;
+			}
+	
+			.ventas1{
+				color: white;
+				font-family: arial;
+				text-align: center;
+				font-size: 28px;
+				margin-left: 28px;
+			}
+	
+			.parte6-2{
+				justify-content: center;
+			}
+	
+			.buy{
+	
+				justify-content: center;
+			}
+	
+			.buy-1{
+				font-weight: bold;
+			}
+	
+			.now{
+				text-decoration: none;
+				color: white;
+				font-family: arial;
+				background-color: #00bec9;
+				padding-top: 7px;
+				padding-bottom: 7px;
+				padding-left: 25px;
+				padding-right: 25px;
+				border-radius: 15px;
+			}
+	
+			#parte7{
+				font-family: arial;
+				color: #313243;
+				justify-content: center;
+				text-align: center;
+				margin-top: 40px;
+			}
+	
+			.parte7h{
+				font-size: 50px;
+			}
+	
+			.parte7p{
+				font-size: 23px;
+				margin-top: -15px;
+				width: 458px;
+			}
+	
+			#parte7-1{
+				justify-content: center;
+				gap: 40px;
+				margin-top: 40px;
+				text-align: center;
+				color: #313243;
+				font-family: arial;
+			}
+	
+			.parte7-1h{
+				font-size: 20px;
+			}
+	
+			.parte7-1p{
+				margin-top: -10px;
+			}
+	
+			.parte7-1img{
+				justify-content: center;
+				gap: 9px;
+			}
+	
+			#parte8{
+				background-image: url(doctor.png);
+				margin-top: 80px;
+			}
+	
+			#parte8-1{
+				width: 1224.67px;
+				height: 489.67px;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				gap: 205px;
+			}
+	
+			.parte8p{
+				font-family: arial;
+				color: white;
+				font-size: 26px;
+			}
+	
+			.parte8h{
+				font-family: arial;
+				color: white;
+				font-weight: bold;
+				margin-top: -10px;
+			}
+	
+			#parte9{
+				margin-top: 40px;
+				font-family: arial;
+				color: #313243;
+				justify-content: center;
+				text-align: center;
+			}
+	
+			.parte9h{
+				font-size: 50px;
+			}
+	
+			.parte9p{
+				font-size: 23px;
+				margin-top: -15px;
+				width: 458px;
+			}
+	
+			#parte9-1{
+				justify-content: center;
+				gap: 40px;
+			}
+	
+			.parte9{
+				margin-top: 40px;
+			}
+	
+			.parte9-1{
+				font-family: arial;
+				border-style: solid;
+				border-color: white #d5d5d5 #d5d5d5 #d5d5d5;
+			}
+	
+			.parte9-1h{
+				color: #313243;
+				width: 190px;
+			}
+	
+			.parte9-1p{
+				color: #00bec9;
+				font-size: 10px;
+				font-weight: bold;
+	
+			}
+	
+			.parte9-1p1{
+				color: #313243;
+				font-size: 13px;
+				width: 210px;
+	
+			}
+	
+			.parte9-1aa{
+				margin-bottom: 20px;
+			}
+	
+			.parte9-1a{
+				text-decoration: none;
+				font-family: arial;
+				color: #00bec9;
+				font-weight: bold;
+				margin-bottom: 20px;
+	
+			}
+	
+			.left{
+				margin-left: 20px;
+			}
+	
+			.parte9-2{
+				font-family: arial;
+			}
+	
+			#parte10{
+				background-color: #333333;
+				margin-top: 40px;
+				font-family: arial;
+				color: white;
+				justify-content: center;
+				gap: 182px;
+			}
+	
+			.parte10div{
+				margin-top: 40px;
+			}
+	
+			.parte10lista{
+				list-style: none;
+				margin-left: -40px;
+			}
+			
+			.parte10a{
+				text-decoration: none;
+				color: white;
+			}
+	
+			.parte10input{
+				background-color: #d9ab00;
+				margin: 10px 33px 0 0;
+				border: none;
+				height: 21px;
+				color: white;
+			}
+	
+			.parte10{
+				text-align: right;
+			}
+	
+			.parte10p{
+				margin-top: -15px;
+			}
+	
+			.avion{
+				margin-top: -20.5px;
+			}
+	
+			.parte10a-1{
+				margin-top: 25px;
+			}
+	
+			.redes{
+				margin-right: 7px;
+			}
+	
+			.parte10h{
+				margin-top: 54px;
+			}
+		</style>
+
+	</head>
+
+	<body class="body">
+		<div class="flex" id="parte1">
+			<div>
+				<a href="#index1.html"><img src="logo.png" width="130px" class="logo"></a>
+			</div>
+			<div>
+				<ul class="parte1lista flex">
+					<li class="parte1li"><a href="#" class="parte1a">Home</a></li>
+					<li class="parte1li"><a href="#" class="parte1a">About</a></li>
+					<li class="parte1li"><a href="#" class="parte1a">Service</a></li>
+					<li class="parte1li"><a href="#" class="parte1a">Contact</a></li>
+				</ul>
+			</div>
+			<div class="flex">
+				<div>
+					<input type="text" placeholder="Search" class="parte1input">
+				</div>
+				<div class="buscar">
+					<img src="buscar.png" width="30px">
+				</div>
+			</div>
+		</div>
+		<div class="flex" id="parte2">
+			<div class="parte2">
+				<h2 class="parte2h">First I wanted to be a veterinarian</h2>
+				<p class="parte2p">Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.</p>
+				<div class="parte2botones">
+					<a href="#" class="parte2a1">Contact Us</a>
+					<a href="#" class="parte2a2">Our Service</a>
+				</div>
+			</div>
+			<div class="parte2img">
+				<img src="perro.png" width="330px">
+			</div>
+		</div>
+		<div class="flex" id="parte3">
+			<div class="parte3div">
+				<h2 class="parte3h">As a veterinarian and lover of animals.</h2>
+				<p class="parte3p">Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words.</p>
+				<div class="parte3boton">
+					<a href="#" class="parte3a">Our Service</a>
+				</div>
+			</div>
+			<div class="parte3">
+				<div class="parte3img">
+					<img src="video.png" width="380px">
+				</div>
+			</div>
+		</div>
+		<div class="flex" id="parte4" align="center">
+			<div class="parte4">
+				<h2 class="parte4h">Title Here</h2>
+				<p class="parte4p"> 
+					Lorem Ipsum available, but the majority have suffered alteration in some form.
+				</p>
+			</div>
+		</div>
+		<div class="flex" id="parte4-1">
+			<div class="parte4-1img" align="center">
+				<img src="doc1.png" width="250px">
+				<h2 class="parte4h-1">Veterinarian</h2>
+				<p class="parte4p-1">Lorem Ipsum available, but the majority have suffered alteration in some.</p>
+			</div>
+			<div class="parte4-1img" align="center">
+				<img src="doc2.png" width="250px">
+				<h2 class="parte4h-1">Vaccination Care</h2>
+				<p class="parte4p-1">Lorem Ipsum available, but the majority have suffered alteration in some.</p>
+			</div>
+			<div class="parte4-1img" align="center">
+				<img src="doc3.png" width="250px">
+				<h2 class="parte4h-1">Dental Care</h2>
+				<p class="parte4p-1">Lorem Ipsum available, but the majority have suffered alteration in some.</p>
+			</div>
+		</div>
+		<div class="flex" id="parte5">
+			<div class="flex parte5">
+				<div class="parte5img"><img src="video1.png" width="380px"></div>
+			</div>
+			<div class="parte5-1">
+				<h2 class="parte5h">As a veterinarian and lover of animals</h2>
+				<p class="parte5p">Lorem Ipsum available but the majoty suffered alteration in some form, by humour randomised words</p>
+				<div class="parte5boton">
+					<a href="#" class="parte5a">Our Service</a>
+				</div>
+			</div>
+		</div>
+		<div class="flex" id="parte6" align="center">
+			<div class="parte6">
+				<h2 class="parte6h">Title Here</h2>
+				<p class="parte6p">Lorem Ipsum available, but the majority have suffered alteration in some form.  </p>
+			</div>
+		</div>
+		<div class="flex" id="parte6-1">
+			<div class="parte6-1">
+				<img src="enventa.png" width="250px">
+				<div class="flex parte6-2">
+					<div>
+						<h2 class="ventas">$50</h2>
+					</div>
+					<div>
+						<h2 class="ventas1">$30</h2>
+					</div>
+				</div>
+				<div class="buy flex">
+					<div class="buy-1">
+						<a href="#" class="now">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="parte6-1">
+				<img src="enventa1.png" width="250px">
+				<div class="flex parte6-2">
+					<div>
+						<h2 class="ventas">$40</h2>
+					</div>
+					<div>
+						<h2 class="ventas1">$25</h2>
+					</div>
+				</div>
+				<div class="buy flex">
+					<div class="buy-1">
+						<a href="#" class="now">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="parte6-1">
+				<img src="enventa2.png" width="250px">
+				<div class="flex parte6-2">
+					<div>
+						<h2 class="ventas">$45</h2>
+					</div>
+					<div>
+						<h2 class="ventas1">$20</h2>
+					</div>
+				</div>
+				<div class="buy flex">
+					<div class="buy-1">
+						<a href="#" class="now">Buy Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex" id="parte7">
+			<div class="parte7">
+				<h2 class="parte7h">The vetcare team</h2>
+				<p class="parte7p"> Lorem Ipsum available, but the majority have suffered alteration in some form. </p>
+			</div>
+		</div>
+		<div class="flex" id="parte7-1">
+			<div>
+				<img src="team1.png" width="270px">
+				<h3 class="parte7-1h">Jennifer Mullen</h3>
+				<p class="parte7-1p">VETERINARY</p>
+					<div class="flex parte7-1img">
+						<div><a href="#"><img src="instagram.png" width="23px"></a></div>
+						<div><a href="#"><img src="facebook.png" width="23px"></a></div>
+						<div><a href="#"><img src="twitter.png" width="23px"></a></div>
+						<div><a href="#"><img src="wsp.png" width="23px"></a></div>
+					</div>
+			</div>
+			<div>
+				<img src="team2.png" width="270px">
+				<h3 class="parte7-1h">Sheeren Collins</h3>
+				<p class="parte7-1p">ADMINISTRATION</p>
+					<div class="flex parte7-1img">
+						<div><a href="#"><img src="instagram.png" width="23px"></a></div>
+						<div><a href="#"><img src="facebook.png" width="23px"></a></div>
+						<div><a href="#"><img src="twitter.png" width="23px"></a></div>
+						<div><a href="#"><img src="wsp.png" width="23px"></a></div>
+					</div>
+			</div>
+			<div>
+				<img src="team3.png" width="270px">
+				<h3 class="parte7-1h">Jennifer Mullen</h3>
+				<p class="parte7-1p">VETERINARY</p>
+					<div class="flex parte7-1img">
+						<div><a href="#"><img src="instagram.png" width="23px"></a></div>
+						<div><a href="#"><img src="facebook.png" width="23px"></a></div>
+						<div><a href="#"><img src="twitter.png" width="23px"></a></div>
+						<div><a href="#"><img src="wsp.png" width="23px"></a></div>
+					</div>
+			</div>
+		</div>
+		<div class="flex" id="parte8">
+			<div class="flex" id="parte8-1">
+				<div>
+					<img src="corazon.png" width="80%">
+					<p class="parte8p">+34793</p>
+					<h2 class="parte8h">Happy Clients</h2>
+				</div>
+				<div>
+					<img src="estetoscopio.png" width="80%">
+					<p class="parte8p">+34793</p>
+					<h2 class="parte8h">Happy Clients</h2>
+				</div>
+				<div>
+					<img src="jeringa.png" width="80%">
+					<p class="parte8p">+34793</p>
+					<h2 class="parte8h">Happy Clients</h2>
+				</div>
+			</div>
+		</div>
+		<div class="flex" id="parte9">
+			<div>
+				<h2 class="parte9h">Recent Posts</h2>
+				<p class="parte9p"> Lorem Ipsum available, but the majority have suffered alteration in some form.  </p>
+			</div>
+		</div>
+		<div class="flex" id="parte9-1">
+			<div class="parte9">
+				<img src="doct1.png" width="270px">
+				<div class="parte9-1">
+					<h3 class="parte9-1h left">As a veterinarian and lover of animals</h3>
+					<p class="parte9-1p left">FEBRUARY 09, 2020</p>
+					<p class="parte9-1p1 left">Lorem Ipsum available, but the majo rity have suffered alteration in some words which look.</p>
+					<div class="parte9-1aa">
+						<a href="#"class="parte9-1a left">Read More+</a>
+					</div>
+				</div>
+			</div>
+			<div class="parte9">
+				<img src="doct2.png" width="270px">
+				<div class="parte9-2">
+					<h3 class="parte9-1h left">As a veterinarian and lover of animals</h3>
+					<p class="parte9-1p left">FEBRUARY 10, 2020</p>
+					<p class="parte9-1p1 left">Lorem Ipsum available, but the majo rity have suffered alteration in some words which look.</p>
+					<a href="#"class="parte9-1a left">Read More+</a>
+				</div>
+			</div>
+			<div class="parte9">
+				<img src="doct3.png" width="270px">
+				<div class="parte9-1">
+					<h3 class="parte9-1h left">As a veterinarian and lover of animals</h3>
+					<p class="parte9-1p left">FEBRUARY 11, 2020</p>
+					<p class="parte9-1p1 left">Lorem Ipsum available, but the majo rity have suffered alteration in some words which look.</p>
+					<div class="parte9-1aa">
+						<a href="#"class="parte9-1a left">Read More+</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex" id="parte10">
+			<div class="parte10div">
+				<h2>About</h2>
+				<ul class="parte10lista">
+					<li><a href="#" class="parte10a"><p>History</p></a></li>
+					<li><a href="#" class="parte10a"><p>Our Team</p></a></li>
+					<li><a href="#" class="parte10a"><p>Brand Guidelines</p></a></li>
+					<li><a href="#" class="parte10a"><p>Terms & Condition</p></a></li>
+					<li><a href="#" class="parte10a"><p>Privacy Policy</p></a></li>
+				</ul>
+			</div>
+			<div class="parte10div">
+				<h2>Services</h2>
+				<ul class="parte10lista">
+					<li><a href="#" class="parte10a"><p>How to Order</p></a></li>
+					<li><a href="#" class="parte10a"><p>Our Product</p></a></li>
+					<li><a href="#" class="parte10a"><p>Order Status</p></a></li>
+					<li><a href="#" class="parte10a"><p>Promo</p></a></li>
+					<li><a href="#" class="parte10a"><p>Payment Method</p></a></li>
+				</ul>
+			</div>
+			<div class="parte10">
+				<div class="parte10div">
+					<h2 class="parte10h">Title Here</h2>
+					<p class="parte10p"> Lorem Ipsum available, but the majorit </p>
+					<input type="text" class="parte10input">
+				</div>
+				<div>
+					<img src="avion.png" width="33px" class="avion">
+				</div>
+				<div class="parte10 parte10a-1">
+					<a href="#"><img src="ig.png" width="25px" class="redes"></a>
+					<a href="#"><img src="fb.png" width="25px" class="redes"></a>
+					<a href="#"><img src="tw.png" width="25px" class="redes"></a>
+					<a href="#"><img src="wp.png" width="25px"></a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

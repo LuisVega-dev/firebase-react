@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+  <style>
+  	span{
+  		color: darkred;
+  	}
+  </style>
+</head>
+<body>
+    <button class="btn-1">Mostrar</button>
+    <button class="btn">Ocultar</button>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum perspiciatis iusto fugit quas eum voluptatibus sequi hic, ullam voluptatem excepturi labore qui. Dolorum eligendi ad laudantium distinctio, ullam aspernatur.</span>
+    <script>
+      $(".btn").click(function(){
+        $("span").hide();
+      });
+      $(".btn-1").click(function(){
+        $("span").show();
+      });
+    </script>
+</body>
+</html>
